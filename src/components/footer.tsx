@@ -29,7 +29,7 @@ const footerNavigation = {
 
 const Footer = () => {
   return (
-    <footer className="mt-32 bg-[#4B8BBE] sm:mt-56 text-white px-6 py-2">
+    <footer className="bg-[#4B8BBE] text-white px-6 py-2">
       <div className="logo-nav flex flex-col items-center">
         <div>
           <img src={logo} alt="logo" />
