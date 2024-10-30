@@ -69,14 +69,12 @@ const steps = [
 ];
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
       <header className="fixed w-full z-10 bg-[#DDE4F2] top-0">
         <div className="upperheader text-[#4B8BBE] p-2 text-center text-sm">
           Buy Now And Save 20% Off Plan
-          <a href="#" className="text-[#0b162d] underline">
+          <a href="#" className="text-[#0b162d] underline ml-1">
             See Plans And Pricing
           </a>
         </div>
@@ -86,7 +84,7 @@ function App() {
       </header>
 
       <main className="mt-40 px-10">
-        <div className="relative isolate overflow-hidden bg-gray-900 pt-2 rounded-md">
+        <div className="relative isolate overflow-hidden bg-[#002F49] pt-2 rounded-md">
           <div className="max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-4xl pt-10 pb-0 sm:pt-48 lg:pt-20">
               <div className="hidden sm:mb-8 sm:flex sm:justify-center">
@@ -117,15 +115,14 @@ function App() {
           </div>
         </div>
 
-        {/* <section className="trust-group p-4 mt-6"></section> */}
         <section className="trust-group p-4 mt-6">
           <TrustSection />
         </section>
 
         <Wrapper>
           <div className="flex justify-between items-center flex-wrap px-6">
-            <div className="text-center md:text-left md:w-[35%] mb-10 md:mb-0">
-              <h2 className="text-2xl font-semibold mb-4">
+            <div className="text-center md:text-left md:w-[40%] mb-10 md:mb-0">
+              <h2 className="text-2xl font-bold mb-4">
                 Manage School Finances More Efficiently With Edudesks
               </h2>
               <p>
@@ -145,10 +142,10 @@ function App() {
 
         <Wrapper>
           <div className="center flex flex-col justify-center items-center text-center">
-            <h1 className="text-4xl md:w-[58%] text-[#4B8BBE] text-center font-semibold">
+            <h1 className="text-4xl md:w-[58%] text-[#4B8BBE] text-center font-bold">
               Comprehensive Features To Manage Your School's Finances
             </h1>
-            <p className="md:w-[35%] mt-10">
+            <p className="md:w-[35%] mt-10 text-[#59676E]">
               Streamline Your School's Financial Operations By Efficiently
               Managing Salary Payments And Expenses.
             </p>
@@ -172,8 +169,8 @@ function App() {
             <div className="md:w-[30%]">
               <img src={outstanding} alt="stat" />
             </div>
-            <div className="text-left md:w-[35%]">
-              <h2 className="text-2xl font-semibold mb-4">
+            <div className="text-left md:w-[45%]">
+              <h2 className="text-2xl font-bold mb-4 w-[85%]">
                 Effortless Salary Payments Made Simple
               </h2>
               <p>

@@ -24,7 +24,7 @@ const trustSchool = [
 const TrustSection = () => {
   return (
     <>
-      <div className="head p-4 font-bold text-2xl text-center">
+      <div className="head p-4 font-bold text-center">
         Trusted by over 20 Schools
       </div>
       <div className="schools flex justify-between flex-wrap ">
