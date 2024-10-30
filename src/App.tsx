@@ -298,7 +298,7 @@ function App() {
         </section>
 
         <Wrapper>
-          <div className="container flex justify-between flex-wrap items-center">
+          <div className="container flex justify-between flex-wrap items-center md:text-center">
             <FqaSection />
             <div className="card mt-10 flex flex-col items-center justify-center">
               <div className="bg-[#002F49] text-white p-6 rounded-lg w-72 shadow-lg">
@@ -312,9 +312,11 @@ function App() {
                   Can't find the answer you're looking for? Please chat our
                   friendly team
                 </p>
-                <button className="text-[#0a2b47] hover:bg-[#d1e0ef] bg-white font-semibold py-2 px-6 rounded-full transition-colors duration-300">
-                  Get in touch →
-                </button>
+                <div className="con flex flex-col justify-center">
+                  <button className="text-[#0a2b47] hover:bg-[#d1e0ef] bg-white font-semibold py-2 px-6 rounded-full transition-colors duration-300">
+                    Get in touch →
+                  </button>
+                </div>
               </div>
             </div>
           </div>
