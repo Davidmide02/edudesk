@@ -5,7 +5,6 @@ import "./App.css";
 import HeaderComponent from "./components/header";
 import dashboard from "./assets/dashbaord.svg";
 import stat from "./assets/stat.svg";
-
 import expense from "./assets/expense.svg";
 import effortless from "./assets/effortless.svg";
 import effort from "./assets/effort.svg";
@@ -20,26 +19,6 @@ import TrustSection from "./components/trustsectiom";
 
 const cardStat = [effortless, expense, effortless];
 const cardStatDash = [effort, monitor];
-// const priceInfo = [
-//   {
-//     title: "Monthly plan",
-//     desc: "Perfect for small school or short-term needs.",
-//     amount: "5000",
-//     duration: "Per month",
-//   },
-//   {
-//     title: "Quarterly plan",
-//     desc: "Opt for termly billing to save more.",
-//     amount: "30000",
-//     duration: "Quarterly",
-//   },
-//   {
-//     title: "Yearly plan",
-//     desc: "Our best value for schools looking for long term solutions.",
-//     amount: "60000",
-//     duration: "Per year",
-//   },
-// ];
 
 const steps = [
   {
@@ -209,22 +188,6 @@ function App() {
                 Start 30 days free trial →
               </button>
             </div>
-            {/* {priceInfo.map((info) => (
-              <div className="bg-white text-black p-6 rounded-lg w-72 shadow-lg">
-                <h3 className="text-xl font-semibold">{info.title}</h3>
-                <p className="text-sm mt-2 w-[90%]">{info.desc}</p>
-                <p className="text-lg font-bold my-4">
-                  ₦ {info.amount}
-                  <span className="ml-1.5 text-xs">{info.duration}</span>
-                </p>
-                <p className="bg-white text-[#0f3555] px-3 py-1 rounded-full text-sm font-medium mb-6 inline-block">
-                  Save 20% a year
-                </p>
-                <button className="bg-[#0a2b47] hover:bg-[#09233c] text-white font-semibold py-2 px-4 rounded-full transition-colors duration-300">
-                  Start 30 days free trial →
-                </button>
-              </div>
-            ))} */}
 
             <div className="bg-[#0f3555] text-white  rounded-lg w-72 text-left shadow-lg">
               <div className="top p-6">
